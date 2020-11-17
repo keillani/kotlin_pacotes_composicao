@@ -9,4 +9,11 @@ class CalculadoraBonificacao {
         this.total += funcionario.bonificacao
     }
 
+//    //smart cast evitamos o problema de lançarmos exception
+//    fun registra(funcionario: Any){
+//        if(funcionario is Funcionario){
+//            this.total += funcionario.bonificacao
+//        }
+//    }
+
 }
